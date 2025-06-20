@@ -8,7 +8,7 @@ pipeline {
     stages {
         stage('Checkout Code') {
             steps {
-                git 'https://gitlab.com/suganyavj1/revenuenswtask.git'
+                git 'https://github.com/suganyavj/RevenueNSW.git'
             }
         }
 
